@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>GrapesJS Studio Home</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <meta name="generator" content="GrapesJS Studio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+  <link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap" rel="stylesheet" />
+  <style> * {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+:root {
+	--gjs-t-color-primary: #cf549e;
+	--gjs-t-color-secondary: #b9227d;
+	--gjs-t-color-accent: #ffb347;
+	--gjs-t-color-success: #28a745;
+	--gjs-t-color-warning: #ffc107;
+	--gjs-t-color-error: #dc3545;
+}
+
+body {
+	background-color: #e7e7e7;
+	font-family: system-ui, sans-serif;
+	margin: 0;
+}
+
+.gjs-t-body {
+	background-color: rgba(0, 0, 0, 1);
+	color: inherit;
+	font-size: 1rem;
+	line-height: 1.75rem;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.gjs-t-h1 {
+	color: var(--gjs-t-color-secondary);
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+}
+
+.gjs-t-h2 {
+	color: #601843;
+	font-size: 1.2rem;
+	line-height: 1.75rem;
+}
+
+.gjs-t-button {
+	background-color: var(--gjs-t-color-primary);
+	color: white;
+	border-radius: 0.3rem;
+}
+
+.gjs-t-link {
+	color: var(--gjs-t-color-primary);
+	text-decoration: underline;
+}
+
+.gjs-t-border {
+	border-radius: 0.3rem;
+	border-color: #e0e0e0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.gjs-t-body {
+	background-color: rgba(0, 0, 0, 1);
+	color: inherit;
+	font-size: 1rem;
+	line-height: 1.75rem;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#ijx2r {
+	color: black;
+	width: 100%;
+}
+
+.gjs-plg-flex-column {
+	flex-grow: 1;
+}
+
+.gjs-plg-flex-row {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: nowrap;
+}
+
+#iswfn {
+	width: 100%;
+	height: 645px;
+}
+
+#im127 {
+	flex-basis: 45.98%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 43px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 50%;
+}
+
+#il7ok {
+	flex-basis: 54.02%;
+}
+
+#idzwn {
+	width: 100%;
+}
+
+#i5gwh {
+	flex-basis: 50%;
+	padding-right: 5px;
+}
+
+#iptyl {
+	flex-basis: 50%;
+	padding-left: 5px;
+}
+
+#i8w7c {
+	padding: 10px;
+	color: rgb(255, 214, 31);
+	padding-right: 25px;
+	padding-left: 25px;
+	background-color: rgb(255, 214, 31);
+}
+
+#i09u3a {
+	line-height: 1.7999999999999998;
+	margin-top: 0pt;
+	margin-bottom: 10pt;
+	font-size: 18px;
+}
+
+#igiehr {
+	color: rgb(255, 214, 31);
+	font-family: Geo, sans-serif;
+	font-size: 18px;
+}
+
+#izy42f {
+	line-height: 1.7999999999999998;
+	margin-top: 0pt;
+	margin-bottom: 10pt;
+	font-size: 18px;
+}
+
+#itwm7m {
+	color: rgb(255, 214, 31);
+	font-family: Geo, sans-serif;
+}
+
+#iu8f3e {
+	text-decoration: none;
+}
+
+#i6ijg9 {
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+	color: #1155cc;
+	background-color: transparent;
+	font-weight: 400;
+	font-style: normal;
+	font-variant: normal;
+	text-decoration: underline;
+	-webkit-text-decoration-skip: none;
+	text-decoration-skip-ink: none;
+	vertical-align: baseline;
+	white-space: pre-wrap;
+}
+
+#io7zck {
+	color: rgb(255, 214, 31);
+	font-family: Geo, sans-serif;
+}
+
+#it81bw {
+	color: black;
+	width: 100%;
+}
+
+#i3st2u {
+	color: black;
+	width: 100%;
+}
+
+#iietzj {
+	color: black;
+	width: 100%;
+}
+
+#i6eqc6 {
+	color: black;
+	width: 100%;
+}
+
+#ij5yuj {
+	color: black;
+	width: 100%;
+}
+
+#ifcjv7 {
+	color: black;
+	width: 100%;
+}
+
+#ii498 {
+	color: rgb(0, 0, 0);
+	font-family: Geo, sans-serif;
+	font-size: 18px;
+}
+
+#ijy8w7 {
+	color: black;
+	width: 100%;
+}
+
+#ildzu9 {
+	color: black;
+	width: 100%;
+}
+
+#iqtg5c {
+	padding: 10px;
+	position: relative;
+}
+
+#ipqca7 {
+	text-align: justify;
+}
+
+#ism7f-2 {
+	position: relative;
+}
+
+#i4j0e6 {
+	text-align: center;
+}
+
+#ir9lvk {
+	position: relative;
+}
+
+#i3bjgz {
+	text-align: justify;
+}
+
+#ixozpg {
+	text-align: justify;
+}
+
+#ik3s83 {
+	text-align: center;
+}
+
+#ii0ksl {
+	font-size: 18px;
+}
+
+#iveqas {
+	font-size: 18px;
+}
+
+#itg4h9 {
+	padding: 10px;
+	color: rgb(255, 214, 31);
+	font-family: Geo, sans-serif;
+	font-size: 30px;
+	padding-top: 25px;
+	padding-right: 10px;
+	padding-bottom: 25px;
+	padding-left: 10px;
+}
+
+#i4qa5h {
+	text-align: center;
+}
+
+#i6omup {
+	text-decoration: underline;
+}
+
+#iayc {
+	padding-top: 0.016px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#ilok26 {
+	display: block;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: row-reverse;
+	margin-left: 40%;
+	max-width: 20%;
+	margin-right: 40%;
+	position: relative;
+	top: 12px;
+}
+
+@media (max-width:992px) {
+	#ilok26 {
+		top: 310px;
+	}
+
+	#iqtg5c {
+		top: 298px;
+	}
+
+	#itg4h9 {
+		padding-top: 15px;
+	}
+}
+
+@media (max-width:768px) {
+	#i5gwh {
+		flex: 1 1 0%;
+	}
+
+	#iqtg5c {
+		top: 577px;
+	}
+
+	#ilok26 {
+		position: relative;
+		top: 608px;
+	}
+
+	#i4qa5h {
+		font-size: 24px;
+	}
+
+	#itg4h9 {
+		padding-top: 5px;
+		padding-bottom: 15px;
+	}
+
+	#iptyl {
+		position: static;
+		flex: 1 1 0%;
+	}
+
+	#idzwn {
+		flex-direction: column;
+	}
+
+	#im127 {
+		flex: 0 1 auto;
+		width: 42%;
+	}
+}
+
+@media (max-width:480px) {
+	#iqtg5c {
+		top: 1074px;
+	}
+
+	#i8w7c {
+		padding-left: 5px;
+		padding-right: 5px;
+		line-height: 25px;
+		letter-spacing: 0px;
+	}
+
+	#ilok26 {
+		top: 1096px;
+	}
+
+	#i6ijg9 {
+		font-size: 18px;
+	}
+}
+</style>
+</head>
+
+<body id="iayc" class="gjs-t-body"><img id="ijx2r" src="img/lunr.bnnr.neww.png"/>
+  <div id="itg4h9">
+    <div id="i4qa5h">Brazilian multimedia collective <strong>Soín Coletivo</strong> announces new drifting and rythm
+      game <strong><span id="i6omup">lunr.rdio.taxi</span></strong></div>
+  </div>
+  <div data-type-role="flex-row" id="iswfn" class="gjs-plg-flex-row">
+    <div data-type-role="flex-column" id="im127" class="gjs-plg-flex-column">
+      <div data-type-role="flex-row" id="idzwn" class="gjs-plg-flex-row">
+        <div data-type-role="flex-column" id="i5gwh" class="gjs-plg-flex-column">
+          <img id="it81bw" src="img/screenshot_lunr_2025_05___07.png"/><img id="iietzj" src="img/screenshot_lunr_2025_05___03.png"/><img id="ij5yuj" src="img/screenshot_lunr_2025_05___14.png"/><img id="ijy8w7" src="img/screenshot_lunr_2025_05___02.png"/>
+        </div>
+        <div data-type-role="flex-column" id="iptyl" class="gjs-plg-flex-column">
+          <img id="i3st2u" src="img/screenshot_lunr_2025_05___05.png"/><img id="i6eqc6" src="img/screenshot_lunr_2025_05___16.png"/><img id="ifcjv7" src="img/screenshot_lunr_2025_05___15.png"/><img id="ildzu9" src="img/screenshot_lunr_2025_05___18.png"/>
+        </div>
+      </div>
+    </div>
+    <div data-type-role="flex-column" id="il7ok" class="gjs-plg-flex-column">
+      <div id="i8w7c">
+        <div id="ii498">
+          <div id="ipqca7"><strong>São Paulo, Brazil, May 18, 2025</strong> - Brazilian queer collective
+            <strong>Soín Coletivo</strong> is proud to announce it’s debut title: <a
+              href="lunr.rdio.taxi">lunr.rdio.taxi</a> – an innovative mix between <strong>drifting</strong> and
+            <strong>rhythm</strong> games, creating a genre-blend dubbed <em><strong>Drifthm</strong></em>. A playable
+            demo is expected to hit steam in the following months and release is planned for
+            <strong>Q1 2026.</strong><br/><br/></div>
+          <div draggable="true" id="i4j0e6">
+            <span id="ism7f-2" draggable="false" spellcheck="false" class="mce-content-body mce-edit-focus"><a href="https://www.youtube.com/watch?v=BihjfmGG4ao" id="i8h9g3">Watch the latest teaser trailer on Youtube.</a><br/><br/></span>
+          </div>
+          <div draggable="true" id="i3bjgz">
+            <span draggable="false" spellcheck="false" id="ir9lvk" class="mce-content-body mce-edit-focus">In <a href="lunr.rdio.taxi">lunr.rdio.taxi</a>, you will slide through psychedelic spacetime tunnels, drifting between obstacles placed in sync with the soundtrack and scoring points, while piloting the stylish ships from a vast cast of characters – each with their own unique story. Playing through each track feels like dancing with the ship, in a blend of gameplay, colors and sounds that will put you into the groove of a curated selection from the best of Brazil’s electronic music.<br/><br/></span>
+          </div>
+          <div draggable="true" id="ixozpg">
+            <span draggable="false" spellcheck="false" class="mce-content-body mce-edit-focus"><strong>Soín Coletivo</strong> is developing the game in collaboration with <strong>Speedtest</strong> – An underground brazilian electronic music label – to bring tracks from some of the hottest DJs currently playing in brazilian clubs, raves and dance parties. The game presents a side of brazilian urban culture and electronic dance music that is rarely featured in video games, which makes it unique and deeply attuned to the overall culture of our times.<br/><br/></span>
+          </div>
+          <div draggable="true" id="ik3s83"><a
+              href="https://speedtest.bandcamp.com/"><span draggable="false" spellcheck="false" class="mce-content-body mce-edit-focus">Listen to more of Speedtest’s music on Bandcamp.</span></a>
+          </div>
+        </div>
+        <div draggable="true" id="ibehne"></div>
+      </div>
+    </div>
+  </div>
+  <div id="iqtg5c">
+    <span id="igiehr" draggable="true"><span id="ieobn9-2" draggable="false" spellcheck="false" class="mce-content-body mce-edit-focus">The full release – scheduled for <strong>2026 </strong>– will feature our own solar system’s <strong id="i4di3v">nine planets</strong> (yes, it’s counting Pluto), each featuring around <strong>four levels/tracks</strong>. The playable demo that Soín expects to release later this year will feature the first planet, Mercury, with its four levels, and a bonus planet.<br/><br/>Further Inquires: <a href="mailto:mail@soin.team">mail@soin.team</a><br/><br/>About Soín Coletivo:<br/></span>Soín
+    Coletivo is a creative collective from Brazil almost entirely made up of queer and neurodivergent folk, working on a
+    multitude of projects, with its debut title being lunr.rdio.taxi. Developers and artists from the collective have
+    previously worked on Relic Hunters: Rebels (Rogue Snail, Netflix), Black Finger JET (KOHACHI STUDIO) and Atomic
+    Picnic (BitCake Studio, Mad Mushroom), among others.</span>
+    <div id="ii0ksl">
+      <p id="i09u3a" dir="ltr" draggable="true"></p>
+      <p id="izy42f" dir="ltr" draggable="true"><span id="itwm7m" draggable="true">Official Bluesky: </span><a
+          id="iu8f3e" draggable="true"
+          href="https://bsky.app/profile/soincoletivo.bsky.social"><span id="i6ijg9" draggable="true">https://bsky.app/profile/soincoletivo.bsky.social</span></a>
+      </p><span id="iawz2e-2" draggable="true"><span id="io7zck" draggable="true">Official Instagram: </span><a
+        id="ixaqyo" draggable="true"
+        href="https://www.instagram.com/soincoletivo/"><span id="iveqas" draggable="true">https://www.instagram.com/soincoletivo/</span></a></span>
+    </div>
+  </div><img id="ilok26" src="img/lunr_theme.png"/>
+</body>
+
+</html>
